@@ -95,6 +95,12 @@
   height: 80px;
   width: 80px;
 }
+.car {
+  place-items: center;
+  display: grid;
+  font-size: 20px;
+  color: white;
+}
 .car-2 {
   background-color: #344;
   height: 80px;
@@ -114,4 +120,63 @@
   background-color: #600;
   height: 80px;
   width: 80px;
+}
+.car-6 {
+  height: 80px;
+  width: 80px;
+  background-color: gold;
+}
+.car-7 {
+  height: 80px;
+  width: 80px;
+  background-color: gray;
+}
+.car-8 {
+  height: 80px;
+  width: 80px;
+  background-color: deeppink;
+}
+.car-9 {
+  height: 80px;
+  width: 80px;
+  background-color: thistle;
+}
+.car-10 {
+  height: 80px;
+  width: 80px;
+  background-color: saddlebrown;
+}
+.car-11 {
+  height: 80px;
+  width: 80px;
+  background-color: darkblue;
+}
+.car-12 {
+  height: 80px;
+  width: 80px;
+  background-color: darkturquoise;
+}
+.container-4 {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  border: solid red 1px;
+  gap: 4px;
+}
+.child {
+  border: solid blue 1px;
+  text-align: center;
+}
+.kid {
+  place-items: center;
+  height: 80px;
+  width: 80px;
+  background-color: black;
+  color: white;
+  display: grid;
+}
+.kid-1 {
+  gap: 3px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  max-width: 10px;
 }
