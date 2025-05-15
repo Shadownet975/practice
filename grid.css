@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* }
 .element1 {
   background-color: blue;
   text-align: right;
@@ -165,7 +166,7 @@
 .child {
   border: solid blue 1px;
   text-align: center;
-}
+} */
 .kid {
   place-items: center;
   height: 80px;
@@ -177,6 +178,7 @@
 .kid-1 {
   gap: 3px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  max-width: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 266px;
+  margin: 20px auto;
 }
