@@ -3,3 +3,23 @@
   margin: 0;
   box-sizing: border-box;
 }
+.container {
+  background-color: red;
+  height: 200px;
+  width: 500px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+.sibling {
+  background-color: blue;
+}
+.sibling-2 {
+  background-color: yellow;
+}
+.sibling-3 {
+  background-color: green;
+}
+.sibling-4 {
+  background-color: azure;
+}
